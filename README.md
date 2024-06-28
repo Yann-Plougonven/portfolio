@@ -1,5 +1,5 @@
 # Mon portfolio (SAE14)
-Ce portfolio a été réalisé dans le cadre d'une Situation d'Apprentissage et d'Évaluation (SAE14) proposée par mes enseignants durant mon S1 de BUT Réseaux et Télécommunications.
+Ce portfolio a été réalisé dans le cadre d'une Situation d'Apprentissage et d'Évaluation (SAE14) proposée par mes enseignants durant mon premier semestre de BUT Réseaux et Télécommunications.
 ## Limitations
 Ce projet avait pour rôle principal de découvrir le framework Bootstrap et d'appliquer des points particuliers du cours, **et non de créer le portfolio parfait**, celui-ci étant incomplet.
 
