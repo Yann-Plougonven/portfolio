@@ -1,0 +1,176 @@
+<!DOCTYPE html> <!-- type du document : html5-->
+<html lang="en"> <!-- langue de ce document : anglais -->
+
+
+<head>
+    <meta charset="utf-8"> <!-- Encodage : utf-8 -->
+    <link rel="icon" href="images/favicon.png"> <!-- favicon de la page -->
+    <title>Interests • Yann Plougonven--Lastennet</title> <!-- Titre de la page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faire fonctionner le responsive design sur les écrans tactiles : -->
+    <!-- CSS Bootstrap : -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS personel : -->
+    <link rel="stylesheet" href="styles/CSS_Yann.css">
+</head>
+
+
+<body id="centres_interet">
+
+    <!-- Header (barre de navigation)-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex bg-light container-fluid">
+        <div class="container-fluid">
+
+            <!-- Bouton dans lequel se réduit la navbar quand l'écran est trop petit -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liste des éléments principaux de la navbar (affichés alignés, ou réduits dans le bouton navbar-toggler) -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav nav-pills flex-grow-1 justify-content-center">
+                    <li class="nav-item"><a href="index-en.html" class="nav-link non-active">Homepage</a></li>
+                    <li class="nav-item"><a href="projetprofessionnel-en.html" class="nav-link non-active">Career plans</a></li>
+                    <li class="nav-item"><a href="competences-en.html" class="nav-link non-active">Skills</a></li>
+                    <li class="nav-item"><a href="interets-en.html" class="nav-link active" aria-current="page">Interests</a></li>
+                    <li class="nav-item"><a href="liensutiles-en.html" class="nav-link non-active">Useful links</a></li>
+                </ul>
+            </div>
+
+            <!-- Bouton dropdown pour la sélection de la langue -->
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link non-active dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i> Language</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="interets.html">Français</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Partie principale de la page-->
+    <main class="container-fluid">
+
+        <!-- Carrousel d'images, fourni par Bootstrap -->
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">  
+                <div class="carousel-inner">
+
+                    <!-- Image n°1 -->
+                    <div class="carousel-item active">
+                        <img src="images/interets/datacenter.jpg" class="d-block w-100" alt="Datacenter">
+                    </div>
+
+                    <!-- Image n°2 -->
+                    <div class="carousel-item">
+                        <img src="images/interets/antennes.png" class="d-block w-100" alt="Telecommunications antennas">
+                    </div>
+
+                    <!-- Image n°3 -->
+                    <div class="carousel-item">
+                        <img src="images/interets/robot_sciences_maths.jpg" class="d-block w-100" alt="Robot manipulating mathematical calculations">
+                    </div>
+
+                    <!-- Image n°4 -->
+                    <div class="carousel-item">
+                        <img src="images/interets/fibre_optique.jpg" class="d-block w-100" alt="Optical fibres laid next to an rj-45 cable">
+                    </div>
+
+                </div>
+
+                <!-- Bouton gauche -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <!-- Bouton droit -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Texte de la page -->
+        <div class="row">
+
+            <!-- Colonne vide à gauche du texte, s'affichant que la page est trop large -->
+            <div class="back_page_projetprofessionnel col-xl-2"></div>
+
+            <!-- Texte principal de la page -->
+            <article id="front_projetprofessionnel" class="col-xl-8">
+
+                <!-- Titre principal de la page -->
+                <h1 class="text-center mt-4 mb-4"><strong>Interests</strong></h1>
+
+                <p>
+                    Since I was young, I've wanted to work in science and technology. Computer science, computer networks and telecommunications are very interesting subjects that I've chosen to study, with the goal of becoming a cyber security or computer network engineer, someday.
+                </p>
+
+                <p>
+                    I enjoy spending time reading newspaper articles or watching online videos about new technologies, IT, and science in all its forms. I would love to continue learning new things for the rest of my life.
+                </p>
+
+                <p>
+                    Perhaps you'd like an example of a project where my knowledge has been useful? Let me tell you about a volunteer project I did between June 2019 and July 2020, specifically during the school closures between March 2020 and June 2020 due to covid-19.
+                </p>
+
+                <p>
+                    This project consisted of providing online technical support to users experiencing difficulties with the software which launch a customised version of the Minecraft video game. This personalised online version, called Paladium, is one of the biggest French online Minecraft parties, with over 150,000 unique players. 
+                </p>
+
+                <p>
+                    Other members of the technical support team, composed of around ten people, helped me to develop my field of action, and to solve more complex problems: like in terms of domain name resolution, component driver compatibility, java environment, etc.
+                </p>
+
+                <p> 
+                    I've rewritten many tutorials to make them more readable, shorter, less dangerous and, above all, much easier to understand. This has taught me how to transmit my technical knowledge to people who know almost nothing about computers and the Internet. I'm convinced that these skills in writing, in illustrating and in sharing knowledge have served me well, and always will.
+                </p>    
+
+                <p>
+                    After a few months, I progressively became responsible for the management of the technical support team. My role was to coordinate the team, but I also learned how to configure and maintain several platforms for sharing, communication, and task management, such as the Google suite, Trello, Discord and GitHub.
+                </p>
+                
+                <p>
+                    This experience significantly contributed to refining my perfectionist tendencies, by teaching me the importance of making concessions when necessary. I regularly had to find the right balance between the deadline for publishing a tutorial and the excellent quality of this tutorial or its intermediate versions, without ever putting players at risk, which could cause their computers to malfunction or expose their private data for example.
+                </p>
+
+                <p> 
+                    In conclusion, I've had the opportunity to hone a wide range of skills, from researching, developing, and testing solutions to technical and IT problems, to mastering different operating systems such as Windows, Linux and macOS, video editing, image editing, and, above all, writing, teamwork, project management (both team and individual) and communication. 
+                </p>
+
+
+                <!-- Intégration d'une vidéo de 5 minutes approfondissant le sujet -->
+                <h3 class="mb-4">Would you like to watch a video (in French) to find out more about this project?</h3>
+                
+                <div class="d-flex justify-content-center mb-4">
+                    <video controls class="mx-auto">
+                        <source src="videos/presentation_d_un_projet.mp4" type="video/mp4">
+                        Your browser is unable to play this video.
+                        <code>Extract from a video in which I present a volunteer IT project.</code>
+                    </video>
+                </div>
+
+            </article>
+
+            <!-- Colonne vide à droite du texte, s'affichant que la page est trop large -->
+            <div class="back_page_projetprofessionnel col-xl-2"></div>
+
+        </div>
+
+        <!--- Icones boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- JavaScript personnel pour utiliser quelques fonctionnalités dynamiques -->
+        <script src="scripts/JS_Yann.js"></script>
+        <!-- JavaScript fourni Bootstrap pour utiliser quelques fonctionnalités dynamiques -->
+        <!-- A placer à la fin du document juste avant </body> afin que les pages se chargent plus vite -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html> <!-- type du document : html5-->
+<html lang="fr"> <!-- langue de ce document : français -->
+
+
+<head>
+    <meta charset="utf-8"> <!-- Encodage : utf-8 -->
+    <link rel="icon" href="images/favicon.png"> <!-- favicon de la page -->
+    <title>Intérêts • Yann Plougonven--Lastennet</title> <!-- Titre de la page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faire fonctionner le responsive design sur les écrans tactiles : -->
+    <!-- CSS Bootstrap : -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS personel : -->
+    <link rel="stylesheet" href="styles/CSS_Yann.css">
+</head>
+
+
+<body id="centres_interet">
+
+    <!-- Header (barre de navigation)-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex bg-light container-fluid">
+        <div class="container-fluid">
+
+            <!-- Bouton dans lequel se réduit la navbar quand l'écran est trop petit -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liste des éléments principaux de la navbar (affichés alignés, ou réduits dans le bouton navbar-toggler) -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav nav-pills flex-grow-1 justify-content-center">
+                    <li class="nav-item"><a href="index.html" class="nav-link non-active">Accueil</a></li>
+                    <li class="nav-item"><a href="projetprofessionnel.html" class="nav-link non-active">Projet professionnel</a></li>
+                    <li class="nav-item"><a href="competences.html" class="nav-link non-active">Compétences</a></li>
+                    <li class="nav-item"><a href="interets.html" class="nav-link active" aria-current="page">Intérêts</a></li>
+                    <li class="nav-item"><a href="liensutiles.html" class="nav-link non-active">Liens utiles</a></li>
+                </ul>
+            </div>
+
+            <!-- Bouton dropdown pour la sélection de la langue -->
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link non-active dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i> Langue</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="#">Français</a></li>
+                        <li><a class="dropdown-item" href="interets-en.html">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Partie principale de la page -->
+    <main class="container-fluid centres_interet">
+
+        <!-- Carrousel d'images, fourni par Bootstrap -->
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">  
+                <div class="carousel-inner">
+
+                    <!-- Image n°1 -->
+                    <div class="carousel-item active">
+                        <img src="images/interets/datacenter.jpg" class="d-block w-100" alt="Datacenter">
+                    </div>
+
+                    <!-- Image n°2 -->
+                    <div class="carousel-item">
+                        <img src="images/interets/antennes.png" class="d-block w-100" alt="Antennes de télécommunications">
+                    </div>
+
+                    <!-- Image n°3 -->
+                    <div class="carousel-item">
+                        <img src="images/interets/robot_sciences_maths.jpg" class="d-block w-100" alt="Robot manipulant des calculs mathématiques">
+                    </div>
+
+                    <!-- Image n°4 -->
+                    <div class="carousel-item">
+                        <img src="images/interets/fibre_optique.jpg" class="d-block w-100" alt="Fibres optiques posées à côté d'un cable rj-45">
+                    </div>
+
+                </div>
+
+                <!-- Bouton gauche -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <!-- Bouton droit -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- Texte de la page -->
+        <div class="row">
+
+            <!-- Colonne vide à gauche du texte, s'affichant que la page est trop large -->
+            <div class="back_page_projetprofessionnel col-xl-2"></div>
+
+            <!-- Texte principal de la page -->
+            <article id="front_projetprofessionnel" class="col-xl-8">
+
+                <!-- Titre principal de la page -->
+                <h1 class="text-center mt-4 mb-4"><strong>Centres d'intérêt</strong></h1>
+
+                <p>
+                    Depuis mon plus jeune âge, je souhaite travailler dans le domaine des sciences et des technologies. L'informatique, les réseaux informatiques et les télécommunications sont des sujets très intéressants que j'ai choisi d'étudier, dans le but de devenir un jour ingénieur en cybersécurité ou en réseaux informatiques.
+                </p>
+
+                <p>
+                    J'aime passer du temps à lire des articles ou à regarder des vidéos en ligne sur les nouvelles technologies, l'informatique et les sciences en général. J'aimerais beaucoup pouvoir continuer à apprendre de nouvelles choses tout au long de ma vie.
+                </p>
+
+                <p>
+                    Peut-être souhaitez-vous un exemple de projet où ces connaissances ont été utiles ? Laissez-moi vous parler d'un projet bénévole que j'ai réalisé entre juin 2019 et juillet 2020, plus précisément pendant les fermetures des établissements scolaires entre mars 2020 et juin 2020, à cause du covid-19.
+                </p>
+
+                <p>
+                    Cette expérience consistait à assurer un support technique en ligne auprès des utilisateurs qui n’arrivaient pas à utiliser le logiciel qui permet de faire fonctionner une version personnalisée du jeu vidéo Minecraft. Cette version en ligne personnalisée, dénommée Paladium, est l'une des plus grosses parties en ligne française de Minecraft, avec plus de 150 000 joueurs uniques.
+                </p>
+
+                <p>
+                    L'équipe du support technique, composée d’une dizaine de personnes, m’a appris à développer mon domaine d’action, et à résoudre des problèmes plus complexes : notamment en termes de résolution de noms de domaine, de compatibilité des drivers de composants, d'environnement java, et j'en passe.
+                </p>
+
+                <p> 
+                    J'ai alors entrepris la re-rédaction de nombreux tutoriels, afin de les rendre plus lisibles, plus courts, moins dangereux, et surtout beaucoup plus faciles à comprendre. Cela m’a appris à transmettre au mieux mes connaissances techniques à des personnes qui n’y connaissent pourtant presque rien à l’informatique et à internet. Je suis persuadé que ces compétences en rédaction, en illustration, et en transmission de connaissances m’ont été utiles, et me le seront toujours.
+                </p>    
+
+                <p>
+                    Au bout de quelques mois, j’ai progressivement pris la main sur la gestion de l’équipe du support technique. Mon rôle était alors de coordonner l’équipe, mais aussi de configurer et maintenir plusieurs plateformes de partage, de communication et de gestion des tâches, comme la suite Google, Trello, Discord ou GitHub.
+                </p>
+                
+                <p>
+                    Tout cela m’a très largement aidé à améliorer mon côté perfectionniste, mais j’ai aussi dû apprendre à parfois faire des concessions quand c’était vraiment nécessaire. Il fallait régulièrement trouver le juste milieu entre le délai de publication d’un tutoriel et la qualité supérieure de celui-ci, ou de ses versions intermédiaires. Sans jamais, pour autant, faire prendre des risques aux joueurs, qui pourraient faire dysfonctionner leurs ordinateurs par exemple, ou exposer leurs données privées.
+                </p>
+
+                <p> 
+                    Pour conclure, j’ai eu l’occasion, rien qu'avec ce projet, de perfectionner une grande diversité de mes compétences, que ce soit en recherche, en développement et en test de solutions pour des problèmes techniques et informatiques, en maîtrise de différents systèmes d’exploitation comme Windows, Linux et macOS, en montage vidéo, en montage d’image, mais surtout en rédaction, en travail d’équipe, en gestion de projets - d’équipe et individuels - et en communication.
+                </p>
+
+
+                <!-- Intégration d'une vidéo de 5 minutes approfondissant le sujet -->
+                <h3 class="mb-4">Souhaitez-vous regarder une vidéo pour en savoir plus sur ce projet ?</h3>
+                
+                <div class="d-flex justify-content-center mb-4">
+                    <video controls class="mx-auto">
+                        <source src="videos/presentation_d_un_projet.mp4" type="video/mp4">
+                        Votre navigateur ne peut pas lire cette vidéo.
+                        <code>Extrait d'une vidéo dans laquelle je présente un projet informatique réalisé bénévolement.</code>
+                    </video>
+                </div>
+
+            </article>
+
+            <!-- Colonne vide à droite du texte, s'affichant que la page est trop large -->
+            <div class="back_page_projetprofessionnel col-xl-2"></div>
+
+        </div>
+        
+
+
+        <!--- Icones boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- JavaScript personnel pour utiliser quelques fonctionnalités dynamiques -->
+        <script src="scripts/JS_Yann.js"></script>
+        <!-- JavaScript fourni Bootstrap pour utiliser quelques fonctionnalités dynamiques -->
+        <!-- A placer à la fin du document juste avant </body> afin que les pages se chargent plus vite -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>

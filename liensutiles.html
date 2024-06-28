@@ -1,0 +1,135 @@
+<!DOCTYPE html> <!-- type du document : html5-->
+<html lang="fr"> <!-- langue de ce document : français -->
+
+
+<head>
+    <meta charset="utf-8"> <!-- Encodage : utf-8 -->
+    <link rel="icon" href="images/favicon.png"> <!-- favicon de la page -->
+    <title>Liens utiles • Yann Plougonven--Lastennet</title> <!-- Titre de la page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faire fonctionner le responsive design sur les écrans tactiles : -->
+    <!-- CSS Bootstrap : -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS personel : -->
+    <link rel="stylesheet" href="styles/CSS_Yann.css">
+</head>
+
+
+<body id="liens_utiles">
+
+    <!-- Header (barre de navigation)-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex bg-light container-fluid">
+        <div class="container-fluid">
+
+            <!-- Bouton dans lequel se réduit la navbar quand l'écran est trop petit -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liste des éléments principaux de la navbar (affichés alignés, ou réduits dans le bouton navbar-toggler) -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav nav-pills flex-grow-1 justify-content-center">
+                    <li class="nav-item"><a href="index.html" class="nav-link non-active">Accueil</a></li>
+                    <li class="nav-item"><a href="projetprofessionnel.html" class="nav-link non-active">Projet professionnel</a></li>
+                    <li class="nav-item"><a href="competences.html" class="nav-link non-active">Compétences</a></li>
+                    <li class="nav-item"><a href="interets.html" class="nav-link non-active">Intérêts</a></li>
+                    <li class="nav-item"><a href="liensutiles.html" class="nav-link active" aria-current="page">Liens utiles</a></li>
+                </ul>
+            </div>
+
+            <!-- Bouton dropdown pour la sélection de la langue -->
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link non-active dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i> Langue</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="#">Français</a></li>
+                        <li><a class="dropdown-item" href="liensutiles-en.html">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Partie principale de la page-->
+    <main class="container-fluid">
+
+        <!-- Section contenant les cartes (cards) -->
+        <section class="row">
+
+            <!-- Titre principal de la page -->
+            <h1 class="text-center mt-4 mb-4"><strong>Liens utiles</strong></h1>
+
+            <!-- Carte CV -->
+            <article class="col mt-3 d-flex justify-content-center align-items-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="images/liens_utiles/cv_logo.jpg" class="card-img-top" alt="logo représentant un CV">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">CV</h5>
+                        <p class="card-text">Mon CV est consultable sur une page web, et peut également être téléchargé au format pdf.</p>
+                        <a href="index.html" class="btn btn-primary mt-auto" target="_blank" rel="noopener">S'y rendre</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte Email -->
+            <article class="col mt-3 d-flex justify-content-center align-items-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="images/liens_utiles/mail_logo.jpg" class="card-img-top" alt="logo représentant un email">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text">Si vous le souhaitez, vous pouvez me contacter à l'adresse plougonvenyann@gmail.com</p>
+                        <a href="mailto:plougonvenyann@gmail.com" class="btn btn-primary mt-auto" target="_blank" rel="noopener">Me contacter</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte GitHub -->
+            <article class="col mt-3 d-flex justify-content-center align-items-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="images/liens_utiles/github_logo.jpg" class="card-img-top" alt="logo github">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Pour un aperçu d'une partie de mes projets de programmation, vous pouvez consulter mon GitHub.</p>
+                        <a href="https://github.com/Yann-Plougonven" class="btn btn-primary mt-auto" target="_blank" rel="noopener">S'y rendre</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte Linkedin -->
+            <article class="col mt-3 d-flex justify-content-center align-items-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="images/liens_utiles/linkedin_logo.png" class="card-img-top" alt="logo linkedin">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Linkedin</h5>
+                        <p class="card-text">Pour suivre en temps réel mon parcours professionnel, vous pouvez consulter mon Linkedin.</p>
+                        <a href="https://www.linkedin.com/in/yann-plougonven--lastennet" class="btn btn-primary mt-auto" target="_blank" rel="noopener">S'y rendre</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Carte BUT R&T -->
+            <article class="col mt-3 d-flex justify-content-center align-items-center">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="images/liens_utiles/iut_lannion.jpg" class="card-img-top" alt="IUT de lannion">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">BUT R&T</h5>
+                        <p class="card-text">Sur le site de l'IUT de Lannion, vous pouvez vous renseigner sur le BUT réseaux et télécommunications.</p>
+                        <a href="https://iut-lannion.univ-rennes.fr/reseaux-telecommunications" class="btn btn-primary mt-auto" target="_blank" rel="noopener">S'y rendre</a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+
+        <!--- Icones boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- JavaScript personnel pour utiliser quelques fonctionnalités dynamiques -->
+        <script src="scripts/JS_Yann.js"></script>
+        <!-- JavaScript fourni Bootstrap pour utiliser quelques fonctionnalités dynamiques -->
+        <!-- A placer à la fin du document juste avant </body> afin que les pages se chargent plus vite -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>

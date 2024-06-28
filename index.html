@@ -1,0 +1,241 @@
+<!DOCTYPE html> <!-- type du document : html5-->
+<html lang="fr"> <!-- langue de ce document : français -->
+
+
+<head>
+    <meta charset="utf-8"> <!-- Encodage : utf-8 -->
+    <link rel="icon" href="images/favicon.png"> <!-- favicon de la page -->
+    <title>Portfolio • Yann Plougonven--Lastennet</title> <!-- Titre de la page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faire fonctionner le responsive design sur les écrans tactiles : -->
+    <!-- CSS Bootstrap : -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS personel : -->
+    <link rel="stylesheet" href="styles/CSS_Yann.css">
+</head>
+
+
+<body id="cv">
+    
+    <!-- Header (barre de navigation)-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex bg-light container-fluid">
+        <div class="container-fluid">
+
+            <!-- Bouton dans lequel se réduit la navbar quand l'écran est trop petit -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liste des éléments principaux de la navbar (affichés alignés, ou réduits dans le bouton navbar-toggler) -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav nav-pills flex-grow-1 justify-content-center">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Accueil</a></li>
+                    <li class="nav-item"><a href="projetprofessionnel.html" class="nav-link non-active">Projet professionnel</a></li>
+                    <li class="nav-item"><a href="competences.html" class="nav-link non-active">Compétences</a></li>
+                    <li class="nav-item"><a href="interets.html" class="nav-link non-active">Intérêts</a></li>
+                    <li class="nav-item"><a href="liensutiles.html" class="nav-link non-active">Liens utiles</a></li>
+                </ul>
+            </div>
+
+            <!-- Bouton dropdown pour la sélection de la langue -->
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link non-active dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i> Langue</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="#">Français</a></li>
+                        <li><a class="dropdown-item" href="index-en.html">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Partie principale de la page-->
+    <main class="container-fluid">
+        
+        <!-- Ligne 1 du CV (les deux premiers articles du CV) -->
+        <div class="row">
+
+            <!-- articlePhotoDeYann -->
+            <div class="col-12 col-md-5 cv_gauche themed-grid-col text-center container d-flex align-items-center justify-content-center" id="articlePhotoDeYann">
+                <div class="row justify-content-center">
+                    <img class="rounded-circle img-fluid" id="photoYann" src="images/yann.png" alt="Une photo de moi">
+                </div>
+            </div>
+
+            <!-- articleIdentité (Nom, prénom, titre principal du CV) -->
+            <article class="col-12 col-md-7 cv_droite themed-grid-col text-center" id="articleIdentité">
+                <h1>YANN<br>PLOUGONVEN--LASTENNET</h1>
+                <h3>ÉTUDIANT EN 1RE ANNÉE DE BUT RÉSEAUX ET TÉLÉCOMMUNICATIONS</h3>
+                <h3>À LA RECHERCHE D'UNE ALTERNANCE</h3>
+            </article>
+        </div>
+
+        <!-- ligne 2 CV (les articles 3 articleProfilCoordonnes et 4 articleFormationCompetencesExperience du CV) -->
+        <div class="row">
+
+            <!-- articleProfilCoordonnes (Profil, coordonnées, Langues, Centres d'intérêt)-->
+            <article class="col-12 col-md-5 cv_gauche themed-grid-col" id="articleProfilCoordonnes">
+                
+                <h3>NOTE : CE SITE EST UNE ARCHIVE ET EST OBSOLETE</h3>
+
+                <ul>
+                    <li><h3>PROFIL</h3></li>
+                    <li>18 ans</li>
+                    <li>Permis B, véhicule personnel</li>
+                    <li>PSC1 (formation premiers secours)</li>
+                </ul>
+
+                <ul>
+                    <li><h3>COORDONNÉES</h3><li> <!-- Les icones d'illustrations sont fournies par bootstrap -->
+                    <li><i class="bi bi-phone"></i><a href="tel:private"> [Donnée supprimée]</a></li>
+                    <li><i class="bi bi-envelope-fill"></i><a href="mailto:plougonvenyann arobase gmail.com"> plougonvenyann arobase gmail.com</a></li>
+                    <li><i class="bi bi-geo-alt-fill"></i> Lannion (22)</li>
+                    <li><i class="bi bi-github"></i><a href="https://github.com/Yann-Plougonven" target="_blank" rel="noopener"> github.com/Yann-Plougonven</a></li>
+                    <li><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/yann-plougonven--lastennet" target="_blank" rel="noopener"> linkedin.com/in/yann-plougonven--lastennet</a></li>
+                    <!-- target="_blank" permet d'ouvrir le lien dans un nouvel onglet. rel="noopener" permet de limiter les risques de sécurité lors de l'ouverture du lien -->
+                </ul>
+
+                <ul>
+                    <li><h3>LANGUES</h3></li>
+                    <li>
+                        <table>
+                            <!--class="align-top" permet d'aligner "Anglais" et "Espagnol" en haut à gauche de leur case, même si colonne d'à côté fait plus d'une ligne."-->
+                            <!--class="me-2" permet d'ajouter une marge entre les deux colonnes.-->
+                            <tr><td class="align-top"><strong class="me-2">Anglais</strong></td><td>B2+, pratique quotidienne. Deux séjours en Angleterre.</td></tr>
+                            <tr><td class="align-top"><strong class="me-2">Espagnol</strong></td><td>A2+, niveau moyen.</td></tr>
+                        </table>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li><h3>CENTRES D'INTÉRÊT</h3></li>
+                    <li>Cyclisme (3 ans)</li>
+                    <li>Natation (6 ans)</li>
+                    <li>Aviron (1 an)</li>
+                    <li>Actualité technologique</li>
+                </ul>
+
+            </article>
+
+            <!-- articleFormationCompetencesExperience (Formation, compétences, expérience) -->
+            <article class="col-12 col-md-7 cv_droite themed-grid-col" id="articleFormationCompetencesExperience">
+
+                <h3 id="titreFormation">FORMATION</h3>
+                <ul>
+                    <li><h6>2023-2024 | 1RE ANNÉE DE BUT RÉSEAUX ET TÉLÉCOMS</h6></li>
+                    <li>Université de Rennes - IUT de Lannion (22).</li>
+                </ul>
+
+                <ul>
+                    <li><h6>2023 | BACCALAURÉAT GÉNÉRAL</h6></li>
+                    <li>Spécialités mathématiques, numérique et sciences informatiques, physique chimie.</li>
+                    <li>Options mathématiques expertes et sciences de l'ingénieur.</li>
+                    <li>Mention « très bien ».</li>
+                    <li>Lycée Saint-Louis - Châteaulin (29).</li>
+                </ul>
+
+                <h3>COMPÉTENCES</h3>
+                <ul>
+                    <li><h6>RÉSEAUX INFORMATIQUES</h6></li>
+                    <li>Concevoir, sécuriser, dépanner un réseau informatique.</li>
+                    <li>Environnements techniques : Cisco, Aruba, Linux, Windows.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>CYBERSÉCURITÉ</h6></li>
+                    <li>Attestation SecNumacadémie de l'ANSSI, l'Agence nationale de la sécurité des systèmes d'information (score : 100%).</li>
+                    <li>Certification PIX (score : 720/780).</li>
+                </ul>
+
+                <ul>
+                    <li><h6>PROGRAMMATION</h6></li>
+                    <li>Projets Python et web : création d'un puissance 4 multijoueur en ligne, portfolio.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>SYSTÈME</h6></li>
+                    <li>Linux, Windows.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>TÉLÉCOMMUNICATIONS</h6></li>
+                    <li>Supports et réseaux de transmission des signaux, soudure de fibre optique.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>BASE DE DONNÉES</h6></li>
+                    <li>SQL, traitement de données avec Python.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>TÉLÉPHONIE</h6></li>
+                    <li>Voix sur IP.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>GESTION DE PROJET</h6></li>
+                    <li>Planification (Gantt, Trello), reporting (mail, réunion...), gestion des risques.</li>
+                </ul>
+
+                <h3>EXPÉRIENCE</h3>
+                <ul>
+                    <li><h6>DEPUIS 2019 | GESTION D'UNE ÉQUIPE DE MODÉRATION EN LIGNE</h6></li>
+                    <li>Gestion bénévole d'une équipe chargée de la protection d'une communauté en ligne de plus de
+                        3000 jeunes francophones, et sensibilisation des membres aux dangers d'internet.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>2019-2020 (13 MOIS) | SUPPORT TECHNIQUE INFORMATIQUE</h6></li>
+                    <li>Aide bénévole auprès d'une dizaine de milliers de joueurs rencontrant des problèmes de
+                        connectivité à la plus grande partie en ligne française du jeu vidéo Minecraft.</li>
+                    <li>Rédaction de tutoriels, recherche de solutions techniques pour Windows, macOS et Linux.</li>
+                    <li>Gestion en ligne de projets et de l'équipe de support, composée d'une dizaine de personnes.</li>
+                </ul>
+
+                <ul>
+                    <li><h6>2020 | STAGE D'OBSERVATION D'UNE SEMAINE CHEZ WEELOGIC</h6></li>
+                    <li>Découverte des métiers de l'installation de matériel informatique et de leur maintenance.</li>
+                </ul>
+
+            </article>
+        </div>
+
+        <!-- Section dédiée au téléchargement du CV au format pdf -->
+        <div class="row" id="sectionBoutonTelechargementCV">
+            <!-- Emplacement d'affichage des lives alertes de téléchagement -->
+            <div class="col-12 col-lg-8 col-xl-5 mt-5 mx-auto d-flex justify-content-center flex-column" id="liveAlertPlaceholder"></div>
+
+            <!-- Bouton de type split dropdown pour télécharger le CV au format pdf -->
+            <div class="col-12 d-flex justify-content-center mb-5">
+                <div class="btn-group m-auto">
+
+                    <!-- Bouton principal -->
+                    <a class="btn btn-secondary dropdown-item boutonTelechargementCVPdf d-flex align-items-center" id="liveAlertPdfStandard" href="documents/CV_Yann_Plougonven--Lastennet_V1.4.pdf" download="CV Yann Plougonven--Lastennet V1.3.pdf">
+                        <i class="bi bi-download me-2"></i>Télécharger mon CV au format pdf
+                    </a>
+
+                    <!-- Bouton secodaire (dropdown) -->
+                    <button class="btn btn-secondary dropdown-toggle dropdown-toggle-split boutonTelechargementCVPdf" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <!-- Contenu du dropdown du bouton secodaire -->
+                    <ul class="dropdown-menu "> 
+                        <li><a class="dropdown-item" id="liveAlertPdfStandard2" href="documents/CV_Yann_Plougonven--Lastennet_V1.4.pdf" download="CV Yann Plougonven--Lastennet V1.3.pdf">PDF standard</a></li>
+                        <li><a class="dropdown-item" id="liveAlertPdfPourImpression" href="documents/CV_Yann_Plougonven--Lastennet_V1.4_pour_impression.pdf" download="CV Yann Plougonven--Lastennet V1.3 pour impression.pdf">PDF optimisé pour l'impression</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!--- Icones boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- JavaScript personnel pour utiliser quelques fonctionnalités dynamiques -->
+        <script src="scripts/JS_Yann.js"></script>
+        <!-- JavaScript fourni Bootstrap pour utiliser quelques fonctionnalités dynamiques -->
+        <!-- A placer à la fin du document juste avant </body> afin que les pages se chargent plus vite -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>

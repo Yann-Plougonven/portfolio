@@ -1,0 +1,160 @@
+/***GENERAL***/
+
+/*Couleur par défaut du fond des pages (peut-être modifiée plus spécifiquement par la suite)*/
+body{
+    background-color: #fff7f1
+}
+
+/*Couleur de base des boutons*/
+.btn{
+    background-color:#966f53; /*Couleur du fond du bouton de téléchargement du CV en pdf*/
+    border-color: #966f53; /*Couleur de la bordure du bouton de téléchargement du CV en pdf*/
+    color:white /*Couleur du texte*/
+}
+
+/*Couleur des sous-boutons dropdown (notamment celui de téléchargement du CV en pdf) afin de les démarquer du reste du bouton*/
+.dropdown-toggle{
+    background-color: #8a654b;
+    border-color: #8a654b;
+}
+
+/*Couleur de base des boutons pendant le focus clavier ou souris, ou le clic*/
+.btn:hover, .btn a:hover, .btn:focus, .btn a:focus, .btn:active, .btn a:active{
+    background-color:#82624b; /*Couleur du fond du bouton de téléchargement du CV en pdf*/
+    border-color:#82624b; /*Couleur de la bordure du bouton de téléchargement du CV en pdf*/
+    color:white /*Couleur du texte*/
+}
+
+/*Forcer les vidéos à s'adapter à la taille de l'écran*/
+video{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Couleur par défaut de tous les tites principaux (h1) et de tous les lien*/
+h1, a{
+    color: #966f53;
+}
+
+/*Couleur par défaut de tous les liens lors du passage de la souris par dessus*/
+a:hover{
+    color: #482f1d;
+}
+
+/***NAVBAR***/
+
+/*Lien de la page actuellement consultée par le visiteur, sur la navbar*/
+.active{
+    background-color: #966f53 !important; /*!important permet de forcer le changement*/
+    color:white !important;
+}
+
+/*Liens des autres pages sur la navbar*/
+.non-active{
+    color: #966f53 !important; 
+}
+
+
+/***CV***/
+
+/*Couleur de fond de la partie sombre (gauche) du CV*/
+.cv_gauche{
+    background-color: #e1c5ad;
+    color: #1b3441;
+}
+
+/*Couleur de fond de la partie claire (droite) du CV*/
+.cv_droite{
+    background-color: #fff7f1;
+}
+
+/*Couleur de fond de la section du bouton de téléchargement du CV au format pdf*/
+#sectionBoutonTelechargementCV{
+    background-color: #f8f9fa;
+}
+
+/*Liens de la partie sombre (gauche) du CV*/
+.cv_gauche a{
+    color: #1b3441; /*Couleur des liens*/
+    text-decoration: none; /*Effacement du soulignage des liens*/
+}
+
+/*Marge des titres h1 du CV*/
+#cv h1{
+    margin-top:3%;
+}
+
+/*Marge des titres h3 de la partie droite ligne 1 (id articleIdentité) du CV*/
+#articleIdentité h3{
+    margin-top: 2%
+}
+
+/*Couleur des titre marron (partie la plus claire du CV)*/
+.cv_droite h1, .cv_droite h3, .cv_droite h6{
+    color:#966f53
+}
+
+/*Titres h3 de la partie claire ligne 2 (id articleFormationCompetencesExperience) du CV*/
+#articleFormationCompetencesExperience h3{
+    text-align: center; /*centrer le titre*/
+    font-weight: bold; /*gras*/
+}
+
+/*Marge suppérieure du premier titre h3*/
+#titreFormation{
+    margin-top: 2%;
+}
+
+/*Marge des titres h2 du CV*/
+#cv h2{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/*Marge des titres h3 de la partie gauche ligne 2 du CV*/
+#articleProfilCoordonnes h3{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/*Listes du CV*/
+#cv ul{
+    padding-left: 1%; /*Rapprocher les listes à puce du CV vers le bord gauche*/
+    list-style: none; /*Supprimer les points des listes du CV*/
+}
+
+/*Photo de Yann sur le CV*/
+#cv #photoYann{
+    max-width : 40%; /*Photo pas trop grande*/
+    margin-top: 3%; /*Éloigner la photo du bord suppérieur de son emplacement*/
+    margin-bottom: 3%; /*Éloigner la photo du bord inférieur de son emplacement*/
+}
+
+/***COMPETENCES***/
+
+/*Titres représentant chacune des compétences de la page compétences*/
+#competences h3{
+    color:#966f53;
+    margin-top:2%;
+}
+
+/*Tableaux de la page compétences*/
+#competences table{
+    background-color: #e1c5ad;
+    border-radius: 0.5em;
+}
+
+
+/***CENTRES D'INTERETS***/
+
+/*Titres représentant chacune des compétences de la page compétences*/
+#centres_interet h3{
+    color:#966f53;
+}
+
+/***LIENS UTILES***/
+
+/*Forcer la couleur de fond de la page liens utiles à être blanche*/
+#liens_utiles{
+    background-color: #ffffff;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html> <!-- type du document : html5-->
+<html lang="en"> <!-- langue de ce document : anglais -->
+
+
+<head>
+    <meta charset="utf-8"> <!-- Encodage : utf-8 -->
+    <link rel="icon" href="images/favicon.png"> <!-- favicon de la page -->
+    <title>Skills • Yann Plougonven--Lastennet</title> <!-- Titre de la page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faire fonctionner le responsive design sur les écrans tactiles : -->
+    <!-- CSS Bootstrap : -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS personel : -->
+    <link rel="stylesheet" href="styles/CSS_Yann.css">
+</head>
+
+
+<body id="competences">
+
+    <!-- Header (barre de navigation)-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex bg-light container-fluid">
+        <div class="container-fluid">
+
+            <!-- Bouton dans lequel se réduit la navbar quand l'écran est trop petit -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liste des éléments principaux de la navbar (affichés alignés, ou réduits dans le bouton navbar-toggler) -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav nav-pills flex-grow-1 justify-content-center">
+                    <li class="nav-item"><a href="index-en.html" class="nav-link non-active">Homepage</a></li>
+                    <li class="nav-item"><a href="projetprofessionnel-en.html" class="nav-link non-active">Career plans</a></li>
+                    <li class="nav-item"><a href="competences-en.html" class="nav-link active" aria-current="page">Skills</a></li>
+                    <li class="nav-item"><a href="interets-en.html" class="nav-link non-active">Interests</a></li>
+                    <li class="nav-item"><a href="liensutiles-en.html" class="nav-link non-active">Useful links</a></li>
+                </ul>
+            </div>
+
+            <!-- Bouton dropdown pour la sélection de la langue -->
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link non-active dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i> Language</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="competences.html">Français</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Partie principale de la page -->
+    <main class="container-fluid">
+
+        <div class="row">
+
+            <!-- Colonne vide à gauche du texte, s'affichant que la page est trop large -->
+            <div class="back_page_competences col-xl-2"></div>
+
+            <!-- Texte principal de la page -->
+            <article id="front_competences" class="col-xl-8">
+
+                <!-- Titre principal de la page -->
+                <h1 class="text-center mt-4 mb-4"><strong>Skills</strong></h1>
+
+                <h3>COMPUTER NETWORK</h3>
+                <p>I'm learning how to design, secure and troubleshoot computer networks and internet connections. The technical environments I work with are Cisco and Aruba for routers and switches, and Linux and Windows for computers and servers.</p>
+
+                <h3>CYBERSECURITY</h3>
+                <p>I obtained the “SecNumacadémie” certificate with a score of 100%. This certificate is delivered by ANSSI, the French national agency for information systems security. </p>
+                
+                <h3>PROGRAMMING</h3>
+                <p>I've been programming regularly in python for over 4 years, and I started with html and css 5 years ago. You can find these projects on my <a href="https://github.com/Yann-Plougonven">GitHub profile</a>.</p> 
+                <ul>
+                    <li>My biggest web project (html/css) is the portfolio you see now.</li>
+                    <li>I've worked on a lot of projects in python, such as a “connect 4” online multiplayer game, a steganography program, and programs used to process and visualise thousands of lines of data, using the “matplotlib” module.</li>
+                </ul>
+                
+                <h3>OPERATING SYSTEMS</h3>
+                <p>For over a year, I wrote tutorials on a voluntary basis for thousands of Windows and macOS users who were having trouble connecting to a video game. Want to find out more about this story? Go to the <a href="interets-en.html">Interests page</a>!</p>
+
+                <h3>TELECOMMUNICATIONS</h3>
+                <p>I study several signal transmission media and networks (copper, air, optical fiber). I also have the ability to solder optical fibers together. </p>
+
+                <h3>DATABASES</h3>
+                <p>Data processing using MySQL and python.</p>
+
+                <h3>TELEPHONY</h3>
+                <p>At the moment, I know the basic principles of Voice over IP (VoIP), but I'm going to learn a lot more in this area over the coming months.</p>
+
+                <h3>PROJECT MANAGEMENT</h3>
+                <p>I managed a team of remote IT volunteers for almost a year. </p>
+                <p>For project planning, I also know how to use Trello and Gannt diagrams. </p>
+
+                <h3>SCIENCE AND COMPUTING IN GENERAL</h3>
+                <p>I hold a French general 'baccalauréat' with perfect scores of 20/20 in computer science and mathematics. </p>
+                <p>I also obtained PIX certification with a score of 720/780, which is used to assess our ability to use computers and the Internet and to stay safe online. </p>
+
+                <h3>ENGLISH</h3>
+                <p>I speak English every day, and I've been to England twice. As I learnt English in school, the French Ministry of Education has certified in 2023 my level of English as follows:</p>
+                <div class="col-xl-5 col-md-7">
+                    <table class="table table-striped">
+                        <!--class="align-top" permet d'aligner le texte en haut à gauche de sa case, même si colonne d'à côté fait plus d'une ligne."-->
+                        <!--class="me-2" permet d'ajouter une marge entre les deux colonnes.-->
+                        <tr><td class="align-top"><div class="me-3">Written comprehension</div></td><td>C1</td></tr>
+                        <tr><td class="align-top"><div class="me-3">Written expression</div></td><td>C1</td></tr>
+                        <tr><td class="align-top"><div class="me-3">Oral comprehension</div></td><td>C1</td></tr>
+                        <tr><td class="align-top"><div class="me-3">Oral expression</div></td><td>B2</td></tr>
+                    </table>
+                </div>
+
+                <h3>SPANISH</h3>
+                <p>In addition to English, I also learnt Spanish at school. The French Ministry of Education has certified in 2023 my level of Spanish as follows:</p>
+                <div class="col-xl-5 col-md-7">
+                    <table class="table table-striped">
+                        <!--class="align-top" permet d'aligner le texte en haut à gauche de sa case, même si colonne d'à côté fait plus d'une ligne."-->
+                        <!--class="me-2" permet d'ajouter une marge entre les deux colonnes.-->
+                        <tr><td class="align-top"><div class="me-3">Written comprehension</div></td><td>B1</td></tr>
+                        <tr><td class="align-top"><div class="me-3">Written expression</div></td><td>A2</td></tr>
+                        <tr><td class="align-top"><div class="me-3">Oral comprehension</div></td><td>B1</td></tr>
+                        <tr><td class="align-top"><div class="me-3">Oral expression</div></td><td>A2</td></tr>
+                    </table>
+                </div>
+
+                <h3>BRETON</h3>
+                <p>At secondary school, for four years, I also took an option to learn the basics of Breton, the historic language of the region where I live, Brittany. In 2020, my overall certified level in Breton was <strong>A2</strong>.</p>
+
+                <!-- Image d'illustration (TODO : à retirer une fois l'évaluation SAE14-16 passée)-->
+                <img class="img-fluid mt-5 mb-5" src="images/competences/skill.jpg" alt="Image representing skills, with 'skill' written in the middle.">
+            
+            </article>
+
+            <!-- Colonne vide à droite du texte, s'affichant que la page est trop large -->
+            <div class="back_page_competences col-xl-2"></div>
+
+        </div>
+
+        <!--- Icones boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- JavaScript personnel pour utiliser quelques fonctionnalités dynamiques -->
+        <script src="scripts/JS_Yann.js"></script>
+        <!-- JavaScript fourni Bootstrap pour utiliser quelques fonctionnalités dynamiques -->
+        <!-- A placer à la fin du document juste avant </body> afin que les pages se chargent plus vite -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>

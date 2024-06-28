@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!-- type du document : html5-->
+<html lang="en"> <!-- langue de ce document : anglais -->
+
+
+<head>
+    <meta charset="utf-8"> <!-- Encodage : utf-8 -->
+    <link rel="icon" href="images/favicon.png"> <!-- favicon de la page -->
+    <title>Career plans • Yann Plougonven--Lastennet</title> <!-- Titre de la page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faire fonctionner le responsive design sur les écrans tactiles : -->
+    <!-- CSS Bootstrap : -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS personel : -->
+    <link rel="stylesheet" href="styles/CSS_Yann.css">
+</head>
+
+
+<body id="projet_professionnel">
+
+    <!-- Header (barre de navigation)-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light d-flex bg-light container-fluid">
+        <div class="container-fluid">
+
+            <!-- Bouton dans lequel se réduit la navbar quand l'écran est trop petit -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Liste des éléments principaux de la navbar (affichés alignés, ou réduits dans le bouton navbar-toggler) -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav nav-pills flex-grow-1 justify-content-center">
+                    <li class="nav-item"><a href="index-en.html" class="nav-link non-active">Homepage</a></li>
+                    <li class="nav-item"><a href="projetprofessionnel-en.html" class="nav-link active" aria-current="page">Career plans</a></li>
+                    <li class="nav-item"><a href="competences-en.html" class="nav-link non-active">Skills</a></li>
+                    <li class="nav-item"><a href="interets-en.html" class="nav-link non-active">Interests</a></li>
+                    <li class="nav-item"><a href="liensutiles-en.html" class="nav-link non-active">Useful links</a></li>
+                </ul>
+            </div>
+
+            <!-- Bouton dropdown pour la sélection de la langue -->
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link non-active dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i> Language</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="projetprofessionnel.html">Français</a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Partie principale de la page -->
+    <main class="container-fluid">
+
+        <div class="row">
+
+            <!-- Colonne vide à gauche du texte, s'affichant que la page est trop large -->
+            <div class="back_page_projet_professionnel col-xl-2"></div>
+
+            <!-- Texte principal de la page -->
+            <article id="front_projet_professionnel" class="col-xl-8">
+
+                <!-- Titre principal de la page -->
+                <h1 class="text-center mt-4 mb-4"><strong>Career plans</strong></h1>
+
+                <p>
+                    Planning for the future is hard, but essential work. I'm not as good at clairvoyance as I am at computer networks and telecommunications, so I'm aware that each of my projects is bound to evolve.
+                </p>
+
+                <p>
+                    From next September, I'd like to continue my training through a block release program. It will enable me to practice the skills I've worked on in class and in my own time, and to acquire new ones. At the moment, I don't know in which company or in which specific field I'd like to do a sandwich course, but I'm sure that teachers and people from outside the IUT will be able to advise me and recommend relevant options. In any case, I think I'll be able to find a company that will allow me to carry out interesting projects in networks or telecommunications. 
+                </p>
+
+                <p>
+                    At the end of my first two years at BUT R&T, I'd like to go to engineering school. The choice of a sandwich course for my second year at the IUT is consistent with this plan, given the number of engineering schools announcing that they prefer to recruit sandwich students rather than students on initial training. I don't know yet in which specific field I'd like to get an engineering degree, although cybersecurity is an option that I find particularly relevant and exciting at the moment, in relation to my taste for problem solving.
+                </p>
+
+                <p>
+                    Another choice, which I'm not currently favouring, would be to continue my training at the IUT until I get my BUT. Once I've got this “bac+3”, I could enter the job market or try to continue my studies with a master’s degree or in engineering school. Finally, even though I absolutely don't have that ambition, I'm keeping in mind that any project can be abandoned, and that a change of direction is still possible in the future if I really want to.
+                </p>
+
+                <p>
+                    Once I've finished my studies, Initially, I plan to work as an employee in France. After that, I might consider self-employment. Again, the specific field remains uncertain, and will certainly depend on what interested me the most during my studies. The engineer's profession is probably the most interesting in terms of professional projects and working conditions. Over the last few years, I have also found that teaching is a field that could interest me, why not as a part-time activity alongside my engineering career. 
+                </p>
+
+                <p>
+                    As I said at the beginning of this page, I'm aware that each of my projects is bound to evolve. The progress bar below represents an estimate of the progress of my thinking on this subject. It advances a little each day, but will never reach 100%, because I think I should continue all my life to question my choices, to always improve and make myself as useful as possible.
+                </p>
+
+                <!-- Barre de progression servant d'illustration -->
+                <div class="progress mb-5">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                </div>
+
+                <!-- Image d'illustration (TODO : à retirer une fois l'évaluation SAE14-16 passée)-->
+                <img class="img-fluid mb-5" src="images/projets/project.jpg" alt="Image representing projects, with 'project' written in the middle">
+            
+            </article>
+
+            <!-- Colonne vide à droite du texte, s'affichant que la page est trop large -->
+            <div class="back_page_projet_professionnel col-xl-2"></div>
+        
+        </div>
+
+        <!--- Icones boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- JavaScript personnel pour utiliser quelques fonctionnalités dynamiques -->
+        <script src="scripts/JS_Yann.js"></script>
+        <!-- JavaScript fourni Bootstrap pour utiliser quelques fonctionnalités dynamiques -->
+        <!-- A placer à la fin du document juste avant </body> afin que les pages se chargent plus vite -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>
